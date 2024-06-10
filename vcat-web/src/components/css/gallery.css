@@ -1,0 +1,437 @@
+#galleryParent {
+    margin-top: 4rem;
+}
+
+#noGallery {
+    /* position: absolute;
+    top: 80px;
+    left: 670px; */
+    position: absolute;
+    top: 80px;
+    left: 40%;
+}
+
+#galleryLoader {
+    /* position: relative;
+    top: 5rem;
+    left: 45rem;
+    color: #1c1777;
+    margin-bottom: 9rem; */
+    position: absolute;
+    top: 80px;
+    left: 43%;
+}
+
+#imageContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#galleryMainImageContainer {
+    width: 25rem; /* 30 */
+    height: 18rem;
+    border-radius: 20px;
+}
+
+#galleryMainImage {
+    width: 25rem; /* 30 */
+    height: 18rem;
+    border-radius: 20px;
+}
+
+#mainImageListContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 40px;
+}
+
+#imageListContainer {
+    width: 6rem;
+    height: 5rem;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#imageList {
+    width: 6rem;
+    height: 5rem;
+    border-radius: 20px;
+}
+
+#initialGallerySection {
+    margin-bottom: 10rem;
+}
+
+@media screen and (min-width: 830px) and (max-width: 1000px) {
+    #noGallery {
+        left: 43%;
+    }
+
+    #galleryLoader {
+        left: 48%;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 2000px) {
+    #noGallery {
+        left: 45%;
+    }
+
+    #galleryLoader {
+        left: 49%;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 710px)  {
+    #galleryParent {
+        margin-top: 6.5rem;
+    }
+    #imageContainer {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #galleryMainImageContainer {
+        width: 40rem;
+        height: 20rem;
+    }
+    
+    #galleryMainImage {
+        width: 40rem;
+        height: 20rem;
+        border-radius: 20px;
+    }
+    
+    #mainImageListContainer {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 20px 0;
+    }
+    
+    #imageListContainer {
+        width: 8rem;
+        height: 6rem;
+        border-radius: 20px;
+    }
+    
+    #imageList {
+        width: 8rem;
+        height: 6rem;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    #galleryParent {
+        margin-top: 5.8rem;
+    }
+    #imageContainer {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #galleryMainImageContainer {
+        width: 85rem; /* 85 */
+        height: 40rem; /* 40 */
+    }
+    
+    #galleryMainImage {
+        width: 85rem;
+        height: 40rem;
+        border-radius: 20px;
+    }
+    
+    #mainImageListContainer {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 20px 0;
+    }
+    
+    #imageListContainer {
+        width: 12rem;
+        height: 12rem;
+        border-radius: 20px;
+    }
+
+    #imageListContainer:hover {
+        cursor: pointer;
+    }
+    
+    #imageList {
+        width: 12rem;
+        height: 12rem;
+        border-radius: 20px;
+    }
+
+    #initialGallerySection {
+        margin-bottom: 40rem;
+    }
+}
+
+#galleryCardContainer {
+    width: 11rem;
+    height: 11rem;
+    border-radius: 20px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#galleryCardContainer:hover {
+    cursor: pointer;
+}
+
+#galleryCardImage {
+    width: 11rem;
+    height: 11rem;
+    border-radius: 20px;
+    object-fit: fill;
+    margin-bottom: 10px;
+}
+
+#galleryList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#galleryLabel {
+    font-size: 1rem !important;
+}
+
+@media screen and (min-width: 576px) and (max-width: 710px) {
+    #galleryCardContainer {
+        width: 12rem;
+        height: 12rem;
+        border-radius: 20px;
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #galleryCardImage {
+        width: 12rem;
+        height: 12rem;
+        border-radius: 20px;
+        object-fit: fill;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    #galleryCardContainer {
+        width: 14rem;
+        height: 14rem;
+        border-radius: 20px;
+        /* margin: 30rem 10px; */
+        margin: 30px 10px 30px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #galleryCardImage {
+        width: 14rem;
+        height: 14rem;
+        border-radius: 20px;
+        object-fit: fill;
+        margin-bottom: 10px;
+    }
+
+    #buttonContainer {
+        margin: 4rem 0 5rem 0 !important;
+    }
+
+    #galleryLabel {
+        font-size: 1.5rem !important;
+    }
+}
+
+/* Gallery Modal */
+
+#modelImageContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#galleryModelMainImageContainer {
+    width: 25rem;
+    height: 18rem;
+    border-radius: 20px;
+}
+
+#galleryModelMainImage {
+    width: 25rem;
+    height: 18rem;
+    border-radius: 20px;
+}
+
+#modelMainImageListContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 40px;
+}
+
+#modelImageListContainer {
+    width: 6rem;
+    height: 5rem;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#modelImageList {
+    width: 6rem;
+    height: 5rem;
+    border-radius: 20px;
+}
+
+#closeCircleIcon {
+    position: relative;
+    /* left: 30rem; */
+    left: 77rem;
+    cursor: pointer;
+}
+
+#galleryBackIcon {
+    position: absolute;
+    top: 230px;
+    left: 20px;
+    cursor: pointer;
+}
+
+#galleryForwardIcon {   
+    position: absolute;
+    top: 230px;
+    right: 20px;
+    cursor: pointer;
+}
+
+#initialEventName {
+    margin: 4rem 0 3rem 3rem;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 300px) {
+    #initialEventName {
+        margin: 4rem 0 3rem 3rem;
+        font-size: 1rem;
+    }
+
+    #galleryMainImageContainer {
+        width: 16rem; /* 30 */
+        height: 18rem;
+        border-radius: 20px;
+    }
+    
+    #galleryMainImage {
+        width: 16rem; /* 30 */
+        height: 18rem;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (min-width: 301px) and (max-width: 400px) {
+    #initialEventName {
+        margin: 4rem 0 3rem 3rem;
+        font-size: 1rem;
+    }
+
+    #galleryMainImageContainer {
+        width: 20rem; /* 30 */
+        height: 18rem;
+        border-radius: 20px;
+    }
+    
+    #galleryMainImage {
+        width: 20rem; /* 30 */
+        height: 18rem;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 710px) {
+    #modelMainImageListContainer {
+        margin: 20px 50px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    /* #closeCircleIcon {
+        position: absolute;
+        left: 60rem;
+        cursor: pointer;
+    } */
+}
+
+@media screen and (min-width: 900px) {
+    /* #closeCircleIcon {
+        position: relative;
+        left: 65rem;
+        cursor: pointer;
+    } */
+}
+
+@media screen and (min-width: 1060px) {
+    /* #closeCircleIcon {
+        position: relative;
+        left: 73rem;
+        cursor: pointer;
+    } */
+}
+
+@media screen and (min-width: 1220px) {
+    #closeCircleIcon {
+        position: relative;
+        left: 80rem;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1220px) {
+    #closeCircleIcon {
+        position: relative;
+        left: 82rem;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+    #galleryMainImageContainer {
+        width: 45rem; /* 85 */
+        height: 40rem; /* 40 */
+    }
+    
+    #galleryMainImage {
+        width: 45rem;
+        height: 40rem;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+    #galleryMainImageContainer {
+        width: 75rem; /* 85 */
+        height: 40rem; /* 40 */
+    }
+    
+    #galleryMainImage {
+        width: 75rem;
+        height: 40rem;
+        border-radius: 20px;
+    }
+}
