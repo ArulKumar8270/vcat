@@ -1,0 +1,10 @@
+1	CA Manjunath RS	manjeshrs@gmail.com
+9880919391	Chairman
+2	CA Kaushik Raj K	kaushikrajkv@gmail.com  9900223244	Vice Chairman
+3	CA Venkatesh Babu T R	venkatesh@vbaca.co.in  9845931028	Immediate Past Chairman
+4	CA Maruthi S	camaruthi.s@gmail.com  9844789504	
+5	CA Rama Murthy KS	ksram1@hotmail.com 9448332797	
+6	CA. Sindhu KJ	contact@sindhukj.com 8660089372	
+7	CA Veeresh Illur	ellurveeresh.144@gmail.com  9743661307	
+8	CA Venkatesh KG	kgvenky@gmail.com  9663221221	
+9	CA Vinay T	vinay@vnv.ca 9341246770	
