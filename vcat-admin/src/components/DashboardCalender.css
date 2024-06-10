@@ -1,0 +1,117 @@
+.cus-calendar>.p-calendar {
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+}
+
+.cus-calendar>.p-calendar>.p-datepicker-inline {
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+    border-radius: 10px;
+}
+
+.cus-calendar>.p-calendar>.p-datepicker-inline>.p-datepicker-group-container {
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+}
+
+.cus-calendar>.p-calendar>.p-datepicker-inline>.p-datepicker-group-container>.p-datepicker-group {
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+}
+
+.cus-calendar>.p-calendar>.p-datepicker-inline>.p-datepicker-group-container>.p-datepicker-group>.p-datepicker-header {
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+}
+
+.cus-calendar>.p-calendar>.p-datepicker-inline>.p-datepicker-group-container>.p-datepicker-group>.p-datepicker-calendar-container {
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+}
+
+.cus-calendar>.p-calendar>.p-datepicker-inline>.p-datepicker-group-container>.p-datepicker-group>.p-datepicker-calendar-container>.p-datepicker-calendar {
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+}
+
+.cus-calendar td,
+.cus-calendar .p-calendar span {
+    padding: 0 !important;
+    margin: 0;
+    border-width: 0;
+    font-size: 11.5px;
+    width: auto;
+    color: black;
+    letter-spacing: 0px !important;
+}
+
+.cus-calendar th {
+    font-size: 11.5px;
+    width: auto;
+    letter-spacing: 0px !important;
+}
+
+.cus-calendar .p-datepicker table td>span {
+    width: auto;
+    height: 2rem;
+    border-radius: 50%;
+    transition: box-shadow 0.2s;
+    border: 1px solid transparent;
+}
+
+.cus-calendar .p-datepicker-month,
+.cus-calendar .p-monthpicker-month {
+    text-transform: uppercase;
+}
+
+.cus-calendar .p-datepicker-month,
+.cus-calendar .p-datepicker-year {
+    color: #464eb8 !important;
+}
+
+.cus-calendar .p-datepicker .p-datepicker-header .p-datepicker-prev:enabled,
+.cus-calendar .p-datepicker .p-datepicker-header .p-datepicker-next:enabled {
+    color: #495057;
+    border-color: transparent;
+    background: #e9ecef;
+}
+
+.cus-calendar .p-datepicker .p-datepicker-header .p-datepicker-prev:enabled:hover,
+.cus-calendar .p-datepicker .p-datepicker-header .p-datepicker-next:enabled:hover {
+    border-color: transparent;
+    background: #464eb8;
+}
+
+.cus-calendar .p-datepicker .p-datepicker-header .p-datepicker-prev:enabled:hover span,
+.cus-calendar .p-datepicker .p-datepicker-header .p-datepicker-next:enabled:hover span {
+    color: white;
+}
+
+.cus-calendar .p-datepicker,
+.cus-calendar .p-calendar {
+    overflow: hidden;
+    width: 100%;
+}
+
+.cus-calendar .p-datepicker-today span {
+    background-color: #464eb8 !important;
+    color: white !important;
+}
+
+.cus-calendar .p-datepicker-header .p-datepicker-month,
+.cus-calendar .p-datepicker-header .p-datepicker-year {
+    padding: 0 !important;
+}
+
+.cus-calendar .p-monthpicker .p-monthpicker-month,
+.cus-calendar .p-yearpicker .p-yearpicker-year {
+    width: 33.3% !important;
+    letter-spacing: 0.05rem !important;
+}

@@ -1,0 +1,18 @@
+.p-dataview-content>.p-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    row-gap: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    align-items: stretch;
+}
+
+.imageBoxControls {
+    display: none !important;
+}
+
+.imageBox:hover>.imageBoxControls {
+    display: flex !important;
+}

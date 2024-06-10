@@ -1,0 +1,78 @@
+.p-datatable-thead tr {
+    background-color: #464eb8 !important;
+}
+
+.p-datatable-thead tr th {
+    background-color: transparent !important;
+    border-width: 0 !important;
+}
+
+.p-column-title {
+    color: white;
+}
+
+.p-sortable-column-icon {
+    color: white !important;
+}
+
+.p-selectbutton .p-highlight {
+    border-color: #464eb8 !important;
+    background-color: #464eb8 !important;
+    color: white !important;
+}
+
+.p-selectbutton:hover .p-highlight {
+    border-color: #464eb8 !important;
+    background-color: #464eb8 !important;
+    color: white !important;
+}
+
+.p-button {
+    border-color: #464eb8;
+    background-color: #464eb8;
+    color: white;
+}
+
+.p-button:enabled:hover,
+.p-button:not(button):not(a):not(.p-disabled):hover {
+    background: #ffffff;
+    color: #464eb8;
+    border-color: #464eb8;
+}
+
+.p-calendar .p-button {
+    background: #464eb8;
+    color: #ffffff;
+    border-color: #464eb8;
+}
+
+
+/* @media only screen and (min-width: 1434px) {
+    .content>.table {
+        width: 1062px !important;
+    }
+}
+
+@media only screen and (min-width: 1025px)and (max-width:1434px) {
+    .content>.table {
+        width: auto !important;
+    }
+}
+
+@media only screen and (min-width: 992px)and (max-width:1024px) {
+    .content>.table {
+        width: 666.6px !important;
+    }
+}
+
+@media only screen and (min-width: 768px)and (max-width:992px) {
+    .content>.table {
+        width: auto !important;
+    }
+}
+
+@media only screen and (min-width: 320px)and (max-width:767px) {
+    .content>.table {
+        width: 100% !important;
+    }
+} */

@@ -1,0 +1,36 @@
+.border-bottom-3 {
+    border-bottom-width: 5px !important;
+}
+
+.filter-dropdown {
+    min-width: 190px;
+    border-color: #464eb8 !important;
+    border-width: 2px !important;
+}
+
+.filter-dropdown:hover {
+    min-width: 190px;
+    border-color: #464eb8 !important;
+    border-width: 2px !important;
+    background-color: #464eb8;
+}
+
+.filter-dropdown .p-dropdown-label {
+    font-size: 14px;
+    color: #464eb8 !important;
+}
+
+.filter-dropdown:hover .p-dropdown-label {
+    font-size: 14px;
+    color: white !important;
+}
+
+.p-datatable-emptymessage {
+    height: 350px;
+}
+
+.p-datatable-emptymessage td {
+    width: 100%;
+    text-align: center !important;
+    justify-content: center;
+}
